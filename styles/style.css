@@ -1,0 +1,19 @@
+nav{
+    text-align: center;
+    background-color: red;
+}
+a:hover{
+    background-color: brown;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1{
+    text-align: center;
+}
+p {
+    font-style: italic;
+}
