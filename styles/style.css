@@ -2,18 +2,94 @@ nav{
     text-align: center;
     background-color: red;
 }
-a:hover{
-    background-color: brown;
+nav:hover {
+    background-color: black;
+}
+body {
+    margin: 1% 3%;
+}
+/* psuedo classes */
+a:link {
+    color: white;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: yellow;
 }
 img{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img:hover {
+    opacity: 0.8;
 }
 h1{
     text-align: center;
 }
-p {
-    font-style: italic;
+h1:hover {
+    background-color: yellow;
 }
+section:hover {
+    background-color: teal;
+}
+/* descendant combinator */
+section h2 {
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+/* child combinator */
+section > h2 {
+    font-style: italic;
+    font-weight: bolder;
+    color: blue;
+}
+/* general sibling combinator */
+h2 ~ p {
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}
+/* adjacent sibling combinator */
+h2 + p {
+    font-style: italic;
+    color: black;
+}
+.sections {
+    background-color: purple;
+    opacity: 90%;
+}
+.sectionThree {
+    background-color: blue;
+    font-weight: bold;
+    color: green;
+}
+#div1 {
+    text-align: center;
+    padding: 5%;
+}
+#div2 {
+    text-align: center;
+    padding: 5%;
+}
+#three {
+    color: black;
+}
+div p:first-child{
+    color: red;
+}
+div p:last-child{
+    color: yellow;
+}
+
+
+
+
+
