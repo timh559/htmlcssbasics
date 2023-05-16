@@ -25,6 +25,7 @@ header {
 header img {
     height: 100px;
     width: 100px;
+    /* align-items: center; */
 }
 
 #name {
@@ -109,8 +110,3 @@ header img {
         padding-left: 8%;
     }
 }
-/* @media (min-width: 1000px) {
-    #name {
-        margin-left: -5%;
-    }
-} */
