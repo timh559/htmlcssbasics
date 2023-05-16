@@ -1,0 +1,33 @@
+form {
+    height: 350px;
+    width: 300px;
+    margin: auto;
+
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+h1 {
+    padding-top: 30px;
+}
+h5 {
+    margin: -25px 0 -1px 0;
+}
+input, select, button {
+    width: 90%;
+    margin-bottom: 5px;
+    height: 30px;
+}
+input, select {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.306);
+}
+button {
+    color: red;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+
+}
+#message {
+    height: 30%;
+}

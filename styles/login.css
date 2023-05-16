@@ -1,0 +1,33 @@
+
+form {
+    background-color: rgb(230, 224, 224);
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px rgb(79, 75, 75);
+}
+button {
+    margin: 0 40% 20px;
+}
+a {
+    font-size: small;
+    text-align: center;
+    margin: 0 33%;
+    color: yellow;
+    
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+input {
+    background-color: rgb(189, 184, 184);
+    text-align: center;
+    margin: 0 25%;
+    height: 30px;
+    
+    
+}

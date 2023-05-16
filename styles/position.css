@@ -1,0 +1,52 @@
+#one {
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: yellow;
+    position: static;
+    /* static is default position for html elements without styling */
+}
+#two {
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    bottom: 10px;
+    
+    /* absolute is removed from document flow */
+}
+#three {
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: blue;
+    position: relative;
+    top: 10px;
+    left: 500px;
+    bottom: 10px;
+    /* relative to parent container */
+}
+#four {
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: green;
+    position: sticky;
+    top: 10px;
+    left: 500px;
+    bottom: 10px;
+}
+#five {
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: orange;
+    position: fixed;
+    top: 10px;
+    left: 400px;
+    bottom: 10px;
+    /* fixed stays in place even when scrolled */
+}
