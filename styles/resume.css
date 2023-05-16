@@ -14,8 +14,9 @@ p {
 }
 header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
 }
 #photo {
     width: 20%;
@@ -27,26 +28,25 @@ header img {
 }
 
 #name {
-    flex: 50%;
     padding-left: 3%;
 }
-
 #name h4{
+    text-align: center;
     margin-top: -5%;
-}
-#titles h5 {
-    text-align: end;
-}
-#description h5 {
-    text-align: start;
-    color: rgb(131, 129, 129);
 }
 #info {
     flex: 100%;
     display: flex;
     flex-direction: row;
 }
-
+#titles h5 {
+    text-align: end;
+    margin-bottom: -4%;
+}
+#description h5 {
+    text-align: start;
+    color: rgb(131, 129, 129);
+}
 #titles {
     flex: 50%;
 }
@@ -81,6 +81,16 @@ header img {
     margin-left: 2%;
 }
 @media (min-width: 767px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #name h4 {
+        text-align: start;
+    }
+    #titles h5 {
+        margin-bottom: 4%;
+    }
     #section2 {
         display: flex;
         flex-direction: row;
@@ -99,8 +109,8 @@ header img {
         padding-left: 8%;
     }
 }
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
     #name {
         margin-left: -5%;
     }
-}
+} */
