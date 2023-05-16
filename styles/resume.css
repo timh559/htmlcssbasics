@@ -103,4 +103,7 @@ header img {
     #name {
         margin-left: -5%;
     }
+    #name h4{
+        margin-top: 5%;
+    }
 }
